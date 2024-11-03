@@ -9,6 +9,7 @@ public class Code {
             while (side < 1 || side > 20) {
                 System.out.print("Please enter the side length of the square (between 1 and 20): ");
                 side = scanner.nextInt();
+              //  scanner.
 
                 if (side < 1 || side > 20) {
                     System.out.println("Invalid input. The side length must be between 1 and 20.");
@@ -20,7 +21,7 @@ public class Code {
             System.out.println("The area of the square is: " + area);
         }
     }
-
+// Scanner.
 
 
 
